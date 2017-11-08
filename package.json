@@ -1,0 +1,24 @@
+{
+  "name": "MovieApp-Boilerplate",
+  "version": "0.1.0",
+  "description": "This is the boilerplate for Movie App (10 Movies to watch till I die)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha server/test/."
+  },
+  "author": "StackRoute <learner.support@stackroute.in>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "jade-bootstrap": "^1.0.14",
+    "morgan": "1.7.0",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2"
+  }
+}
